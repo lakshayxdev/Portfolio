@@ -65,8 +65,8 @@ const projects = [
       "MongoDB",
     ],
     status: "Completed",
-    liveUrl: "YOUR_DEPLOYED_URL",
-    githubUrl: "YOUR_GITHUB_REPOSITORY",
+    liveUrl: "https://synapse-one-lyart.vercel.app",
+    githubUrl: "https://github.com/lakshayxdev/Synapse",
   },
 
    {
@@ -86,8 +86,8 @@ const projects = [
       "Zustand",
     ],
     status: "Completed",
-    liveUrl: "YOUR_DEPLOYED_URL",
-    githubUrl: "YOUR_GITHUB_REPOSITORY",
+    liveUrl: "https://quick-cart-plum-rho.vercel.app",
+    githubUrl: "https://github.com/lakshayxdev/QuickCart",
   },
 ];
 
