@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+* {
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+
+:root {
+  color-scheme: dark;
+  --bg: #0c0c0c;
+  --surface: #141414;
+  --surface-hover: #1c1c1c;
+  --text: #f5f3ef;
+  --muted: #a19d96;
+  --border: #292724;
+  --accent: #d68b5c;
+  --accent-hover: #e9a579;
+}
+
+:root.light {
+  color-scheme: light;
+  --bg: #faf8f5;
+  --surface: #ffffff;
+  --surface-hover: #f1ece6;
+  --text: #201c18;
+  --muted: #746d65;
+  --border: #e7dfd6;
+  --accent: #a95d30;
+  --accent-hover: #864522;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+}
+
+html {
+  background: var(--bg);
+  color: var(--text);
+  transition: background-color 250ms ease, color 250ms ease;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
